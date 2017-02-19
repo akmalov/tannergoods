@@ -60,4 +60,73 @@
     line-height: 2.72;
     color: #a7a7a7;
   }
+
+  &__photos {
+    display: flex;
+    align-items: flex-end;
+    width: 100%;
+    padding: 0 28px 0 40px;
+  }
+
+  &__item {
+    position: relative;
+    width: 425px;
+    margin-right: 80px;
+
+    &:last-child {
+      margin-right: 0;
+    }
+
+    &-info {
+      position: absolute;
+      top: 30px;
+      left: -155px;
+      width: 610px;
+      height: 228px;
+      padding: 35px 0 0 35px;
+      border: 3px solid #383838;
+      border-bottom: none;
+
+      &:before, &:after {
+        content: '';
+        position: absolute;
+        height: 3px;
+        background: #383838;
+      }
+
+      &:before {
+        bottom: 0;
+        right: 0;
+      }
+
+      &:after {
+        bottom: 0;
+        left: 0;
+      }
+    }
+
+    &-price {
+      margin-bottom: 60px;
+      font-size: 48px;
+      line-height: 1;
+      font-weight: 700;
+      color: #000;
+      letter-spacing: 8px;
+    }
+
+    &-link {
+      padding-left: 156px;
+      font-size: 26px;
+      line-height: 1;
+      font-weight: 700;
+      color: #878787;
+      text-transform: uppercase;
+    }
+  }
+
+  &__image {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
 }

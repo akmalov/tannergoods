@@ -2,11 +2,13 @@
   height: 1605px;
   align-items: flex-end;
   padding-top: 182px;
+  margin-bottom: 189px;
   background: #ededed;
 
   &__info {
     justify-content: flex-end;
     align-self: flex-end;
+    margin-bottom: 189px;
   }
 
   &__photo {
@@ -31,5 +33,29 @@
 
   &__text {
     padding: 35px 15px 65px 60px;
+  }
+
+  &__photos {
+    height: 448px;
+  }
+
+  &__item {
+    height: 268px;
+
+    &_active {
+      width: 580px;
+      height: 448px;
+    }
+
+    &-info {
+
+      &:before {
+        width: 107px;
+      }
+
+      &:after {
+        width: 314px;
+      }
+    }
   }
 }

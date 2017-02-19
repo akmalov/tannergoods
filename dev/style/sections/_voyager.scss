@@ -6,6 +6,7 @@
   &__info {
     justify-content: flex-start;
     align-self: flex-start;
+    margin-bottom: 244px;
   }
 
   &__photo {
@@ -30,5 +31,29 @@
 
   &__text {
     padding: 45px 87px 65px 42px;
+  }
+
+  &__photos {
+    height: 432px;
+  }
+
+  &__item {
+    height: 268px;
+
+    &_active {
+      width: 580px;
+      height: 432px;
+    }
+
+    &-info {
+
+      &:before {
+        width: 100px;
+      }
+
+      &:after {
+        width: 314px;
+      }
+    }
   }
 }
