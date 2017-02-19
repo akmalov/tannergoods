@@ -1,0 +1,34 @@
+.voyager {
+  height: 1406px;
+  align-items: flex-start;
+  background: #fff;
+
+  &__info {
+    justify-content: flex-start;
+    align-self: flex-start;
+  }
+
+  &__photo {
+    align-items: flex-end;
+    background: url("../img/content/voyager.jpg") center center / cover;
+  }
+
+  &__title {
+    margin-bottom: 20px;
+    padding-right: 35px;
+  }
+
+  &__color {
+    padding-right: 14px;
+  }
+
+  &__desc {
+    top: 106px;
+    left: 855px;
+    width: 890px;
+  }
+
+  &__text {
+    padding: 45px 87px 65px 42px;
+  }
+}

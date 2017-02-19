@@ -1,8 +1,9 @@
-.intro {
+.navy-salt {
   display: flex;
   width: 100%;
   max-width: 1920px;
-  min-height: 715px;
+  height: 715px;
+  margin-bottom: 196px;
 
   &__left {
     position: relative;
@@ -19,7 +20,7 @@
     height: 215px;
   }
 
-  &__desc {
+  &__slogan {
     margin-bottom: 32px;
     font-size: 22px;
     line-height: 1;
@@ -28,13 +29,7 @@
 
   &__title {
     margin-bottom: 65px;
-    font-size: 48px;
-    line-height: 1;
-    font-weight: 700;
     color: #000;
-    text-transform: uppercase;
-    letter-spacing: 12px;
-    word-spacing: 11px;
   }
 
   &__link {
@@ -55,6 +50,6 @@
     align-items: flex-start;
     width: 1240px;
     min-height: 715px;
-    background: url("../img/bg/intro.jpg") center center / cover no-repeat;
+    background: url("../img/content/navy-salt.jpg") center center / cover no-repeat;
   }
 }

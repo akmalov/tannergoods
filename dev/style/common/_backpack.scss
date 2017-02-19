@@ -1,0 +1,63 @@
+.backpack {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 100%;
+
+  &__info {
+    display: flex;
+    width: 1745px;
+    height: 572px;
+  }
+
+  &__photo {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 1280px;
+    height: 572px;
+    padding-top: 216px;
+  }
+
+  &__desc {
+    position: absolute;
+    width: 890px;
+    height: 322px;
+    border: 3px solid #b8a47e;
+    z-index: 10;
+  }
+
+  &__title {
+    color: #fff;
+    z-index: 15;
+  }
+
+  &__color {
+    color: #fff;
+    z-index: 15;
+    text-transform: uppercase;
+  }
+
+  &__table {
+    width: 890px;
+    height: 322px;
+  }
+
+  &__empty, &__text {
+    height: 322px;
+    background: transparent;
+  }
+
+  &__empty {
+    width: 422px;
+  }
+
+  &__text {
+    width: 465px;
+    padding: 45px 87px 65px 42px;
+    font-size: 14px;
+    line-height: 2.72;
+    color: #a7a7a7;
+  }
+}

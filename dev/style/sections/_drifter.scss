@@ -1,0 +1,35 @@
+.drifter {
+  height: 1605px;
+  align-items: flex-end;
+  padding-top: 182px;
+  background: #ededed;
+
+  &__info {
+    justify-content: flex-end;
+    align-self: flex-end;
+  }
+
+  &__photo {
+    align-items: flex-start;
+    background: url("../img/content/drifter.jpg") center center / cover;
+  }
+
+  &__title {
+    margin-bottom: 20px;
+    padding-left: 82px;
+  }
+
+  &__color {
+    padding-left: 196px;
+  }
+
+  &__desc {
+    top: 300px;
+    left: 155px;
+    width: 906px;
+  }
+
+  &__text {
+    padding: 35px 15px 65px 60px;
+  }
+}

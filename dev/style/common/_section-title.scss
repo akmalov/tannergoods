@@ -1,0 +1,16 @@
+.section {
+
+  &-title {
+    font-size: 48px;
+    line-height: 1;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 12px;
+    word-spacing: 11px;
+  }
+
+  &-color {
+    font-size: 22px;
+    color: #fff;
+  }
+}
