@@ -1,0 +1,65 @@
+.nomad {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-self: flex-end;
+  width: 465px;
+  height: 790px;
+  padding: 104px 15px 0 0;
+
+  &__title {
+    position: relative;
+    margin-bottom: 30px;
+
+    &:after {
+      content: '';
+      position: absolute;
+      top: -93px;
+      left: 2px;
+      width: 2px;
+      height: 68px;
+      background: #000;
+    }
+  }
+
+  &__desc {
+    margin-bottom: 25px;
+  }
+
+  &__read-more {
+    margin-bottom: 70px;
+  }
+
+  &__logo {
+    display: block;
+    width: 154px;
+    height: 62px;
+
+    &-block {
+      position: relative;
+      margin-left: 25px;
+
+      &:after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: -15px;
+        width: 2px;
+        height: 138px;
+        background: #000;
+        z-index: 10;
+      }
+    }
+  }
+
+  &__photo {
+    position: absolute;
+    top: 410px;
+    left: -194px;
+    width: 573px;
+    height: 441px;
+    z-index: 5;
+  }
+}
